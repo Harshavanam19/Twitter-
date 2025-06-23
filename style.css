@@ -1,0 +1,299 @@
+body{
+  padding: 0%;
+  margin: 0%;
+ 
+}
+.container{
+ 
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-color: black;
+  color: whitesmoke;
+   
+ 
+}
+.first{
+ 
+ 
+    width:20%;
+    border:2px solid rgba(255, 255, 255, 0.15);
+   
+}
+.second{
+ 
+  width:38%;
+  border: 2px solid black rgba(255, 255, 255, 0.15) black rgba(255, 255, 255, 0.15);
+  overflow-y: auto;
+  outline:none;
+ 
+}
+.second::-webkit-scrollbar {
+  display: none;
+}
+.third{
+ 
+  width:25%;
+  border:2px solid rgba(255, 255, 255, 0.15);
+  overflow-y: auto;
+  outline:none;
+ 
+}
+.third::-webkit-scrollbar {
+  width: 0;
+}
+.x-ww{
+  width:20px;
+  filter:invert(1);
+ 
+}
+.x-w{
+  width:28px;
+  filter:invert(1);
+ 
+}
+.logo{
+  margin: 30px 40px;
+ 
+}
+ 
+/* .sidebar ul li{
+  margin-bottom: 24px;
+  font-size: 23px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+ 
+}
+ .sidebar ul li:hover{
+  display: inline-flex; 
+  border-radius: 45px;
+  background-color: rgba(255, 255, 255, 0.18);
+  padding: 8px 12px;
+ 
+}
+  */
+
+  .sidebar ul li {
+  margin-bottom: 24px;
+  font-size: 23px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 8px -8px !important; 
+  border-radius: 45px; 
+ 
+}
+
+.sidebar ul li:hover {
+  background-color: rgba(255, 255, 255, 0.18);
+}
+.searchbar{
+  width:85%;
+  border-radius: 45px;
+  padding: 10px 20px;
+  margin-top:5px ;
+  background-color:black;
+  color: whitesmoke;
+  border-color:rgba(255, 255, 255, 0.18) ;
+ 
+}
+.whats,.who,.subscribetwitter{
+ 
+  border:2px solid rgba(255, 255, 255, 0.15);
+ 
+ 
+ 
+}
+.item{
+ 
+  color: gray;
+  padding-left: 20px;
+ 
+ 
+}
+.email{
+  padding-left: 0%;
+}
+h3{
+  margin: 0%;
+  color: white;
+}
+.whats h2{
+  padding-left: 20px;
+}
+.commondiv{
+  margin: 15px 15px 20px 20px;
+  border-radius: 15px;
+}
+.highlights{
+  margin-bottom: 15px;
+  display: flex;
+ 
+  justify-content:space-between;
+  align-items: flex-start;
+  margin-right: 15px;
+ 
+}
+.show-btn{
+  color: blue;
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+.post-btn{
+  padding: 14px 80px;
+  margin: -15px 5px;
+  border-radius: 35px;
+  font-size: 20px;
+}
+.feed{
+  display: flex
+}
+.feed1,.feed2{
+ width: 50%;
+ color: whitesmoke;
+ padding-top: 15px;
+ padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+}
+.profilepic1,.profilepic2,.profilepic3,.profilepic4{
+  background-image: url("https://images.unsplash.com/photo-1586553720331-2f15f358b291?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NXwxMDY1OTc2fHxlbnwwfHx8fHw%3D");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50px;
+  width: 50px;
+   background-size: cover;
+   border-radius: 50%;
+   margin-left: 10px;
+   margin-top: 10px;
+ 
+}
+.profilepic2{
+  background-image: url(https://images.pexels.com/users/avatars/93955/chevanon-wonganuchitmetha-805.jpeg?auto=compress&fit=crop&h=130&w=130&dpr=2);
+ 
+}
+.profilepic3{
+  background-image: url(https://images.pexels.com/photos/1308881/pexels-photo-1308881.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+}
+.profilepic4{
+  background-image: url(https://images.pexels.com/photos/3361722/pexels-photo-3361722.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
+ 
+.tweetbox{
+  display: flex;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+  padding-bottom: 10px;
+ 
+}
+ 
+.tweet-input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+   margin-top: 10px;
+ 
+ 
+}
+.tweet-inputtext{
+  padding: 10px;
+  color: whitesmoke;
+  background-color: black;
+  border: none;
+   outline: none;
+  width: 200%;
+  font-size: 25px;
+}
+.post-count{
+  color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-size: 19px;
+   border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+}
+ 
+.blinking-cursor {
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+  animation: blink 1s step-start infinite;
+}
+ 
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+ 
+.subscribetwitter{
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+.subscribe-btn{
+  background-color:rgb(29, 155, 240);
+  color: white;
+  border-radius: 25px;
+  padding: 8px 30px;
+  margin-top: 10px;
+  font-size: 17px;
+}
+ 
+.sec1{
+  display: flex;
+}
+.post-content{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+p{
+  padding: 0%;
+  margin: 0%;
+  font-size: 17px;
+}
+.video{
+ 
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+ 
+}
+.post-likes,.bookmark{
+  display: flex;
+  justify-content: space-around;
+ 
+}
+ 
+.bookmark{
+  margin-right: 10px;
+}
+ 
+ 
+ 
+hr {
+  border: none;
+  height: 1px;
+  background-color:rgba(255, 255, 255, 0.18);
+}
+ 
+.likescount{
+  background-color: black;
+  color: whitesmoke;
+  border: none;
+}
+.user{
+ 
+  margin-top: 30px;
+ 
+}
+.dots{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 60px;
+ 
+}
